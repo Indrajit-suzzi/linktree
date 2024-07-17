@@ -1,0 +1,79 @@
+body {
+    position: fixed;
+    background-color: #758694;
+    color: #405D72;
+    height: 100vh;
+    width: 100%;
+    color: #454140;
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 2.15rem;
+}
+
+.profile img {
+    height: 7rem;
+}
+
+.profile h1 {
+    margin-top: 1.25rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.15rem;
+    padding: 0 1rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #DFD3C3;
+    padding: 0.5rem 2rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 6px #454140;
+    cursor: pointer;
+    width: 85%;
+    max-width: 400px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px black;
+    background-color: #D0B8A8;
+}
+
+.icon {
+    font-size: 2.5rem;
+    margin-right: 20%;
+    color: black;
+}
+
+
+/* for pc */
+@media (min-width: 1024px) {
+    body{
+        position: relative;
+    }
+    .profile {
+        margin-top: 5rem;
+    }
+
+    .profile img {
+        height: 12rem;
+    }
+
+    .card {
+        padding: 1rem 2rem;
+    }
+
+    .icon {
+        width: 3rem;
+    }
+}
