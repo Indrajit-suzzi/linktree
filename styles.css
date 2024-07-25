@@ -54,6 +54,7 @@ body {
 .card:hover{
     transform: scale(1.03);
     filter: drop-shadow(0 0 10px #0e6899);
+    border-redius: 1.25rem;
 }
 
 .icon {
