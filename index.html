@@ -14,73 +14,101 @@
     <link rel="icon" href="./images/profile-pic.png">
 
 <body>
-    <!-- Animated particles -->
-    <div class="particles">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-    </div>
+    <div class="grid-background"></div>
 
-    <button id="share-button"><i class="fa-regular fa-share-from-square"></i></button>
-
-    <div class="profile">
-        <div class="profile-container">
-            <div class="profile-glow"></div>
-            <img src="./images/profile-pic.png" id="photo"
-                alt="Profile Picture" />
-            <h3>@Indrajit-suzzi</h3>
-        </div>
-    </div>
+    <button class="share-button" id="shareButton" aria-label="Share profile">
+        <i class="fas fa-share-alt"></i>
+    </button>
 
     <div class="container">
-        <div class="card" onclick="openLink('https://www.facebook.com/Indrajit.suzzi')">
-            <i class="fa-brands fa-facebook icon"></i>
-            <p>indrajit.suzzi - Facebook</p>
-        </div>
+        <header class="header">
+            <img src="./images/profile-pic.png" alt="Indrajit Roy"
+                class="profile-image">
+            <h1 class="name">Indrajit Roy</h1>
+            <p class="username">@indrajit-suzzi</p>
+            <p class="title">Full Stack Developer</p>
+            <p class="bio">Passionate about creating beautiful, functional digital experiences. Always learning, always
+                building.</p>
+        </header>
 
-        <div class="card" onclick="openLink('https://www.instagram.com/Indrajit.suzzi')">
-            <i class="fa-brands fa-instagram icon"></i>
-            <p>user - indrajit.suzzi</p>
-        </div>
+        <nav class="social-links">
+            <a href="https://github.com/Indrajit-suzzi" class="social-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github social-icon"></i>
+                <div>
+                    <div class="social-text">GitHub</div>
+                    <div class="social-description">Open source projects & contributions</div>
+                </div>
+                <i class="fas fa-arrow-right social-arrow"></i>
+            </a>
 
-        <div class="card" onclick="openLink('https://x.com/indrajit_suzzi')">
-            <i class="fa-brands fa-x-twitter icon"></i>
-            <p>indrajit_suzzi - profile</p>
-        </div>
+            <a href="https://www.linkedin.com/in/indrajit-suzzi/" class="social-link" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-linkedin social-icon"></i>
+                <div>
+                    <div class="social-text">LinkedIn</div>
+                    <div class="social-description">Professional network & career</div>
+                </div>
+                <i class="fas fa-arrow-right social-arrow"></i>
+            </a>
 
-        <div class="card" onclick="openLink('https://www.linkedin.com/in/indrajit-suzzi/')">
-            <i class="fa-brands fa-linkedin icon"></i>
-            <p>Indrajit Roy</p>
-        </div>
+            <a href="https://leetcode.com/u/Indrajit-suzzi/" class="social-link" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fas fa-code social-icon"></i>
+                <div>
+                    <div class="social-text">LeetCode</div>
+                    <div class="social-description">Coding challenges & problem solving</div>
+                </div>
+                <i class="fas fa-arrow-right social-arrow"></i>
+            </a>
 
-        <div class="card" onclick="openLink('https://t.me/indrajit_suzzi')">
-            <i class="fa-brands fa-telegram icon"></i>
-            <p>ιηÐɾαʝι† - message</p>
-        </div>
+            <a href="https://x.com/indrajit_suzzi" class="social-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-x-twitter social-icon"></i>
+                <div>
+                    <div class="social-text">Twitter</div>
+                    <div class="social-description">Tech insights & thoughts</div>
+                </div>
+                <i class="fas fa-arrow-right social-arrow"></i>
+            </a>
 
-        <div class="card" onclick="openLink('https://github.com/Indrajit-suzzi')">
-            <i class="fa-brands fa-github icon"></i>
-            <p>indrajit-suzzi - Overview</p>
-        </div>
+            <a href="https://www.instagram.com/Indrajit.suzzi" class="social-link" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-instagram social-icon"></i>
+                <div>
+                    <div class="social-text">Instagram</div>
+                    <div class="social-description">Life & behind the scenes</div>
+                </div>
+                <i class="fas fa-arrow-right social-arrow"></i>
+            </a>
 
-        <div class="card" onclick="openLink('https://leetcode.com/u/Indrajit-suzzi/')">
-            <i class="fa-solid fa-laptop-code icon"></i>
-            <p>indrajit-suzzi - Leetcode</p>
-        </div>
+            <a href="https://t.me/indrajit_suzzi" class="social-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-telegram social-icon"></i>
+                <div>
+                    <div class="social-text">Telegram</div>
+                    <div class="social-description">Direct messaging & updates</div>
+                </div>
+                <i class="fas fa-arrow-right social-arrow"></i>
+            </a>
+
+            <a href="https://www.facebook.com/Indrajit.suzzi" class="social-link" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-facebook social-icon"></i>
+                <div>
+                    <div class="social-text">Facebook</div>
+                    <div class="social-description">Community & connections</div>
+                </div>
+                <i class="fas fa-arrow-right social-arrow"></i>
+            </a>
+        </nav>
+
+        <footer class="footer">
+            <a href="mailto:suzzi.indrajit@gmail.com" class="email">suzzi.indrajit@gmail.com</a>
+            <p class="copyright">© 2025 Indrajit Roy. All rights reserved.</p>
+        </footer>
     </div>
 
-    <footer>
-        <h5>suzzi.indrajit@gmail.com</h5>
-    </footer>
-
-
-    <script src="script.js"></script>
+    <script src="script.js">
+    </script>
 </body>
+</head>
 
 </html>
