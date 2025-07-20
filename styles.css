@@ -103,8 +103,9 @@ body::before {
 }
 
 .username {
-    margin-bottom: 0.75rem;
     color: var(--gradient-end);
+    display: inline;
+    cursor: pointer;
 }
 
 .title {
