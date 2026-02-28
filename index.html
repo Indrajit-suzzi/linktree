@@ -3,112 +3,114 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Link tree</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Indrajit Roy | Links</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link href="styles.css" rel="stylesheet" />
     <link rel="icon" href="./images/profile-pic.png">
+</head>
 
 <body>
-    <div class="grid-background"></div>
-
-    <button class="share-button" id="shareButton" aria-label="Share profile">
-        <i class="fas fa-share-alt"></i>
-    </button>
+    <!-- Background Gradient -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
 
     <div class="container">
         <header class="header">
-            <img src="./images/profile-pic.png" alt="Indrajit Roy"
-                class="profile-image">
-            <h1 class="name">Indrajit Roy</h1>
+            <div class="profile-img-wrapper">
+                <img src="./images/profile-pic.png" alt="Indrajit Roy" class="profile-image">
+            </div>
+            <h1 class="name">Indrajit Roy <i class="fas fa-check-circle verified-badge"></i></h1>
             <p class="username">@indrajit-suzzi</p>
             <p class="title">Full Stack Developer</p>
-            <p class="bio">Passionate about creating beautiful, functional digital experiences. Always learning, always
-                building.</p>
         </header>
 
-        <nav class="social-links">
-            <a href="https://github.com/Indrajit-suzzi" class="social-link" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github social-icon"></i>
-                <div>
-                    <div class="social-text">GitHub</div>
-                    <div class="social-description">Open source projects & contributions</div>
-                </div>
-                <i class="fas fa-arrow-right social-arrow"></i>
-            </a>
+        <div class="links-wrapper">
+            <nav class="social-links">
+                <a href="https://github.com/Indrajit-suzzi" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon-wrapper github">
+                        <i class="fab fa-github social-icon"></i>
+                    </div>
+                    <div class="social-content">
+                        <div class="social-text">GitHub</div>
+                        <div class="social-description">My open-source projects</div>
+                    </div>
+                </a>
 
-            <a href="https://www.linkedin.com/in/indrajit-suzzi/" class="social-link" target="_blank"
-                rel="noopener noreferrer">
-                <i class="fab fa-linkedin social-icon"></i>
-                <div>
-                    <div class="social-text">LinkedIn</div>
-                    <div class="social-description">Professional network & career</div>
-                </div>
-                <i class="fas fa-arrow-right social-arrow"></i>
-            </a>
+                <a href="https://www.linkedin.com/in/indrajit-suzzi/" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon-wrapper linkedin">
+                        <i class="fab fa-linkedin-in social-icon"></i>
+                    </div>
+                    <div class="social-content">
+                        <div class="social-text">LinkedIn</div>
+                        <div class="social-description">Professional network</div>
+                    </div>
+                </a>
 
-            <a href="https://leetcode.com/u/Indrajit-suzzi/" class="social-link" target="_blank"
-                rel="noopener noreferrer">
-                <i class="fas fa-code social-icon"></i>
-                <div>
-                    <div class="social-text">LeetCode</div>
-                    <div class="social-description">Coding challenges & problem solving</div>
-                </div>
-                <i class="fas fa-arrow-right social-arrow"></i>
-            </a>
+                <a href="https://leetcode.com/u/Indrajit-suzzi/" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon-wrapper leetcode">
+                        <i class="fas fa-code social-icon"></i>
+                    </div>
+                    <div class="social-content">
+                        <div class="social-text">LeetCode</div>
+                        <div class="social-description">Coding challenges</div>
+                    </div>
+                </a>
 
-            <a href="https://x.com/indrajit_suzzi" class="social-link" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-x-twitter social-icon"></i>
-                <div>
-                    <div class="social-text">Twitter</div>
-                    <div class="social-description">Tech insights & thoughts</div>
-                </div>
-                <i class="fas fa-arrow-right social-arrow"></i>
-            </a>
+                <a href="https://x.com/indrajit_suzzi" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon-wrapper twitter">
+                        <i class="fab fa-x-twitter social-icon"></i>
+                    </div>
+                    <div class="social-content">
+                        <div class="social-text">Twitter</div>
+                        <div class="social-description">Tech insights</div>
+                    </div>
+                </a>
 
-            <a href="https://www.instagram.com/Indrajit.suzzi" class="social-link" target="_blank"
-                rel="noopener noreferrer">
-                <i class="fab fa-instagram social-icon"></i>
-                <div>
-                    <div class="social-text">Instagram</div>
-                    <div class="social-description">Life & behind the scenes</div>
-                </div>
-                <i class="fas fa-arrow-right social-arrow"></i>
-            </a>
+                <a href="https://www.instagram.com/Indrajit.suzzi" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon-wrapper instagram">
+                        <i class="fab fa-instagram social-icon"></i>
+                    </div>
+                    <div class="social-content">
+                        <div class="social-text">Instagram</div>
+                        <div class="social-description">Life updates</div>
+                    </div>
+                </a>
 
-            <a href="https://t.me/indrajit_suzzi" class="social-link" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-telegram social-icon"></i>
-                <div>
-                    <div class="social-text">Telegram</div>
-                    <div class="social-description">Direct messaging & updates</div>
-                </div>
-                <i class="fas fa-arrow-right social-arrow"></i>
-            </a>
+                <a href="https://t.me/indrajit_suzzi" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon-wrapper telegram">
+                        <i class="fab fa-telegram social-icon"></i>
+                    </div>
+                    <div class="social-content">
+                        <div class="social-text">Telegram</div>
+                        <div class="social-description">Direct messaging</div>
+                    </div>
+                </a>
 
-            <a href="https://www.facebook.com/Indrajit.suzzi" class="social-link" target="_blank"
-                rel="noopener noreferrer">
-                <i class="fab fa-facebook social-icon"></i>
-                <div>
-                    <div class="social-text">Facebook</div>
-                    <div class="social-description">Community & connections</div>
-                </div>
-                <i class="fas fa-arrow-right social-arrow"></i>
-            </a>
-        </nav>
+                <a href="https://www.facebook.com/Indrajit.suzzi" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon-wrapper facebook">
+                        <i class="fab fa-facebook-f social-icon"></i>
+                    </div>
+                    <div class="social-content">
+                        <div class="social-text">Facebook</div>
+                        <div class="social-description">Community & connections</div>
+                    </div>
+                </a>
+            </nav>
+        </div>
 
         <footer class="footer">
-            <a href="mailto:suzzi.indrajit@gmail.com" class="email">suzzi.indrajit@gmail.com</a>
-            <p class="copyright">© 2025 Indrajit Roy. All rights reserved.</p>
+            <button id="copyEmail" class="email-action" data-email="suzzi.indrajit@gmail.com">
+                <i class="fas fa-envelope"></i> suzzi.indrajit@gmail.com
+            </button>
+            <p class="copyright">© 2026 Indrajit Roy</p>
         </footer>
     </div>
 
-    <script src="script.js">
-    </script>
+    <script src="script.js"></script>
 </body>
-</head>
 
 </html>
